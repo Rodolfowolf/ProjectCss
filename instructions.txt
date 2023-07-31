@@ -1,0 +1,17 @@
+Development a car sales website
+
+Rodolfo: develop the contact page with forms to clients quotation requests.
+
+Anuj: develop a simple catalog with 4 items of cars to sale
+
+Albin: develop a simple introduction page with a small description about the company.
+
+Abhimanyu: develop a simple page with client experience buying with us, just invente retornos de 3 a 4 clientes
+
+---------------------------------------------------------------------
+
+<main id='divmain'>
+
+In our structure we have a divmain to configure all page, and we need to use <p> tag to organize everything, firstly we can include our information and work togheter in CSS file.
+
+Use tags such as <p> or <div>, after we will work together in our css file than present our project, don't lost several time with a elaborate text in your page, that's just to populate our project.

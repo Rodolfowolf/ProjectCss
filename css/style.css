@@ -1,0 +1,484 @@
+@media (max-width: 800px)
+{
+body{
+    background:black;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: inline-block;
+    font-size:1em;
+}
+div{
+    font-family: 'Orbitron', sans-serif;
+    font-family:arial;
+    border: none; 
+    display: inline-block;
+    margin: auto;
+    order:3;
+}
+ .footer {
+          display: grid;
+          background:black;
+        }
+.footer img {
+            width: 50%;
+            }
+main{
+  max-width:100%;
+  width:100%;
+  font-size:2em;
+  display: inline-block;
+}
+img{
+  width:100%;
+}
+a{
+  font-size:2em;
+  display: inline-block;
+}
+p{
+  font-size:2em;
+  width:100%;
+  max-width:100%;
+  display:inline-block;
+}
+.divfooter{
+ font-family: 'Orbitron', sans-serif;
+ font-family:arial;
+ border: none; 
+ display: inline-block;
+ margin: auto;
+ order:3;
+}
+.social-media {
+  margin-top: 0.8em; 
+  display: inline-block;
+  align-items: center; 
+}
+.social-media a {
+  display: inline-block;
+  margin-right: 1em;
+}
+.social-media img {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}  
+.red-boxes {
+  display: inline-block;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.box {
+  flex: 1;
+  text-align: center;
+  color: white;
+  background-color: goldenrod;
+  padding: 1em;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.divform{
+  max-width: 50%;
+  display:inline-block;
+ }
+input, textarea, select, fieldset {
+  background-color: lightgoldenrodyellow;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display:grid;
+  color:black;
+  display: inline-block;
+}
+}
+
+
+body{
+ font-family: 'Orbitron', sans-serif;
+ background-image: linear-gradient(#ffffff,darkgray);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ text-shadow: 1px 1px 2px #000000;
+ color: white;
+ margin: 5%;
+ text-align: justify;
+}
+
+p{
+ font-family: "Audiowide", sans-serif;
+ margin: auto;
+ font-size: 1em;
+ width: 100%;
+ display:grid;
+ margin:5px;
+ text-align: justify;
+ height: 10%;
+ padding: 0vw;
+}
+
+    #divheader {
+            font-family: arial;
+            border: none;
+            background-color: #f0f0f0;
+            padding: 10px;
+            position: justify;
+            top: 0;
+            z-index: 100;
+      
+        }
+
+
+
+a{
+            background-color: goldenrod;
+            padding: 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-flex;
+            color: #ffffff;
+            margin-right: 60px;
+
+            font-family: 'Orbitron', sans-serif;
+            border: none;
+            display: inline-flex;
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            border: 0px solid;
+            filter: drop-shadow(16px 16px 5px black);
+}
+a:hover{
+  background-color: gold; 
+}
+
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
+.dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: goldenrod;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+.dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: gold;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+   .company-image {
+            width: 100%;
+            height: auto; 
+            margin-top:2em;
+            border: 2px solid #333; 
+            border-radius: 10px; 
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+        }
+
+.why-choose-us {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 3em;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo-container img {
+    width: 100%;
+    border-radius: 1em; 
+}
+
+.why-choose-us {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo-container img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.why-choose-us-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.why-choose-us-content h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+}
+
+.why-choose-us-content p {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+.red-boxes {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+    color: white;
+    background-color: goldenrod;
+    padding: 1em;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: white;
+    color: red;
+}
+
+.box h3 {
+    font-size: 1.2em;
+}
+
+.box p {
+    font-size: 1em;
+}
+
+.special-photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.special-item {
+    width: calc(33.33% - 1.6em);
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.special-item img {
+    width: 100%;
+    border-radius: 0.8em;
+    box-shadow: 0 0.8em 0.8em rgba(0, 0, 0, 0.1);
+}
+
+.special-details {
+    background-color: #333;
+    color: #fff;
+    border-radius: 0.8em;
+    padding: 0.8em;
+    margin-top: 0.8em;
+}
+
+.special-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.special-details p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.buy-now-btn {
+    display: inline-block;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 0.8em 1.6em;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+
+.buy-now-btn:hover {
+    background-color: gold;
+}
+
+.special-details .buy-now-btn {
+    margin-top: 0.8em;
+}
+.heading-style,
+.company-name{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: gold; 
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.intro-paragraph2{
+  margin-top:2em;
+  font-family : 'Shadows Into Light', cursive;
+}
+.divfooter{
+ font-family: 'Orbitron', sans-serif;
+ background:lightgray;
+ color: white;
+ font-family:arial;
+ border: none; 
+ display: grid;
+ margin: auto;
+ order:3;
+}
+.photo-container2 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.photo-container2 img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+ .footer {
+            background-color: linear-gradient(black,silver);
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 1em;
+            max-width: 25%;
+            margin-top: 1em;
+        }
+
+        .footer img {
+            width: 9em;
+            margin-top: 4em;
+        }
+
+        .social-media {
+            margin-top: 0.8em; 
+            display: flex;
+            align-items: center; 
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin-right: 1em;
+        }
+
+        .social-media img {
+            width: 2.5em;
+            height: 2.5em;
+            border-radius: 50%;
+        }
+
+        .privacy-link {
+            margin-top: 5em;
+        }
+
+        .privacy-link a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .privacy-link a:hover {
+            background-color: #0056b3;
+        }
+
+        .copyright {
+            margin-top: 7em;
+            font-size: 0.8em;
+        }
+ .divform{
+  max-width: 50%;
+  display:inline-flex;
+ }
+
+input, textarea, select, fieldset {
+   background-color: lightgoldenrodyellow;
+   padding: 5px;
+   text-decoration: none;
+   border-radius: 5px;
+   cursor: pointer;
+   display:grid;
+   color:black;
+  }
+legend, span {
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+ img{
+  width: 35%;
+  opacity: 0.9;
+  filter: drop-shadow(10px 10px 5px black);
+}
+
+
+
+.client-experience {
+    border: 1px solid #ccc;
+    background-color: #b69d80;
+    color:#171717;
+    font-style: italic;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.client-experience h2 {
+    font-family: 'Audiowide', cursive;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.client-experience p {
+    line-height: 1.6;
+}
+Explanation:
+
+The CSS is kept in a separate file named style.css.
+We use CSS to reset some default styles, so the page starts with a clean slate.
+We set a background color and text color for the header (divheader) to make it visually distinct.
+Each client experience is wrapped inside a <div class="client-experience">, which has a border, background color, and padding to create a container for the content.
+We style the <h2> and <p> elements within each client experience to adjust the font, color, and spacing.
+Remember, this is just a simple example to get you started. Feel free to modify the content, colors, fonts, and layout to match your specific requirements. If you have any specific requests or further questions, feel free to ask!
+
+
+
+
+
